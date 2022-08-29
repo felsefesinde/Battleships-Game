@@ -10,32 +10,54 @@ You are expected to determine the coordinates of 10 ships of 4 different kinds o
 
 # How does Grid Paper Look Like?
  A  B  C  D  E  F  G  H  I  J 
+ 
  —  —  —  —  —  —  —  —  —  — 
+ 
  O  O  O  O  O  O  O  O  O  O |1
+ 
  O  O  O  O  O  O  O  O  O  O |2
+ 
  O  O  O  O  O  O  O  O  O  O |3
+ 
  O  O  O  O  O  O  O  O  O  O |4
+ 
  O  O  O  O  O  O  O  O  O  O |5
+ 
  O  O  O  O  O  O  O  O  O  O |6
+ 
  O  O  O  O  O  O  O  O  O  O |7
+ 
  O  O  O  O  O  O  O  O  O  O |8
+ 
  O  O  O  O  O  O  O  O  O  O |9
+ 
  O  O  O  O  O  O  O  O  O  O |0
 
 # How to State the Coordinates
 For 10 times you have to state the coordinates of your ships. You can determine whether if it's standing vertical or horizontal on the grid plane. Therefore, the first letter in your input should be either ***"v"*** (meaning vertical) or ***"h"*** (meaning horizontal). Then, you have to write a letter A-J (corresponding to the x-axis of the uppermost left of the ship on the grid shown above) and then, a number (representing the y-axis of the uppermost left of the ship) should be written.
 Hence, a sample input for a battleship would be: ***vg2***, which would result in a grid like (X means that you placed a ship at that position):
 A  B  C  D  E  F  G  H  I  J 
+
  —  —  —  —  —  —  —  —  —  — 
+ 
  O  O  O  O  O  O  O  O  O  O |1
+ 
  O  O  O  O  O  O  O  O  O  O |2
+ 
  O  O  O  O  O  O  O  O  O  O |3
+ 
  O  O  O  O  O  O  X  O  O  O |4
+ 
  O  O  O  O  O  O  X  O  O  O |5
+ 
  O  O  O  O  O  O  X  O  O  O |6
+ 
  O  O  O  O  O  O  X  O  O  O |7
+ 
  O  O  O  O  O  O  O  O  O  O |8
+ 
  O  O  O  O  O  O  O  O  O  O |9
+ 
  O  O  O  O  O  O  O  O  O  O |0
  
  Remember that the ships cannot intersect with each other or they cannot be positioned out of boundaries of the grid. Therefore, you will be warned in a case like this.
